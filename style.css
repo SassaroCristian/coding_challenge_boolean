@@ -1,0 +1,130 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  /* Container Styles */
+  .box {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+  }
+  
+  .centered-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 850px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #00DD00;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    width: 200px;
+    margin: 0 auto 10px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    box-sizing: border-box;
+    background-color: #00DD00;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .buttons {
+    margin: 0 2px;
+    font-size: 10px;
+  }
+  
+  /* Monopattino Styles */
+  .section {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .positioned {
+    position: relative;
+    height: 30px;
+  }
+  
+  .checkbox {
+    position: absolute;
+    bottom: 3px;
+    display: inline-block;
+  }
+  
+  .text-positioned {
+    position: absolute;
+    bottom: 0;
+    left: 17px; 
+  }
+  
+  h2 {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  /* Charge Indicator Styles */
+  .charge-1,
+  .charge-2,
+  .charge-3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  .charge-1 {
+    background-color: #F5B453;
+    width: 325px; 
+  }
+  
+  .charge-2 {
+    background-color: #1EC31E;
+    width: 525px; 
+  }
+  
+  .charge-3 {
+    background-color: #BE4141;
+    width: 125px; 
+  }
+  
